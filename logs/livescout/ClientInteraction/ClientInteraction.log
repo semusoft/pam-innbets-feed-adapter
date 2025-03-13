@@ -1,0 +1,599 @@
+2025-03-05 12:09:17,779 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:09:22,751 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:09:22,751 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:09:34,764 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:09:39,765 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:09:39,766 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:09:51,810 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:09:56,810 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:09:56,812 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:10:08,831 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:10:13,836 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:10:13,836 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:10:25,853 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:10:30,854 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:10:30,855 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:10:42,888 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:10:47,890 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:10:47,892 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:10:59,935 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:11:04,937 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:11:04,937 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:11:16,973 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:11:21,974 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:11:21,974 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:11:34,015 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:11:39,015 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:11:39,015 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:11:51,134 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:11:56,135 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:11:56,135 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:12:08,176 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:12:13,177 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:12:13,177 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:12:25,210 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:12:30,210 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:12:30,211 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:12:42,254 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:12:47,254 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:12:47,255 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:12:59,293 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:13:04,293 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:13:04,294 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:13:16,313 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:13:21,313 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:13:21,314 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:13:33,347 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:13:38,347 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:13:38,348 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:13:50,388 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:13:55,388 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:13:55,389 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:14:07,430 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:14:12,430 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:14:12,430 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:14:24,483 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:14:29,483 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:14:29,483 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:14:41,523 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:14:46,523 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:14:46,524 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:14:58,564 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:15:03,564 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:15:03,565 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:15:15,606 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:15:20,606 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:15:20,606 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:15:32,649 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:15:37,649 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:15:37,650 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:15:49,693 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:15:54,692 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:15:54,693 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:16:06,732 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:16:11,732 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:16:11,733 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:16:23,772 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:16:28,772 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:16:28,773 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:16:40,818 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:16:45,818 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:16:45,819 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:16:57,856 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:17:02,855 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:22:39,907 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:22:44,855 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:22:44,856 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:22:56,886 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:23:01,886 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:23:01,887 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:23:13,905 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:23:18,906 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:23:18,907 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:23:30,945 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:23:35,944 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:23:35,945 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:23:47,990 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:23:52,990 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:23:52,993 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:24:05,013 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:24:10,012 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:24:10,012 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:24:22,071 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:24:27,072 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:24:27,073 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 1] onFeedEvent : DISCONNECTED
+2025-03-05 12:24:39,107 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:24:44,109 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:24:44,109 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:24:56,131 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:25:01,131 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:25:01,131 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:25:13,164 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:25:18,164 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:25:18,165 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:25:30,209 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:25:35,208 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:25:35,209 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:25:47,227 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:25:52,227 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:25:52,228 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:26:04,253 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:26:09,253 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:26:09,254 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:26:21,276 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:26:26,276 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:26:26,277 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:26:38,319 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:26:43,321 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:26:43,321 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:26:55,353 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:27:00,353 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:27:00,353 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:27:12,397 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:27:17,397 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:27:17,398 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:27:29,436 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:27:34,435 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:27:34,438 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:27:46,491 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:27:51,494 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:27:51,495 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:28:03,525 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:28:08,529 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:28:08,530 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:28:20,565 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:28:25,564 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:28:25,565 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:28:37,606 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:28:42,606 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:28:42,607 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:28:54,738 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:28:59,737 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:28:59,737 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:29:11,775 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:29:16,775 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:29:16,775 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:29:28,797 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:29:33,797 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:29:33,797 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:29:45,824 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:29:50,823 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:29:50,824 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:30:02,845 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:30:07,844 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:30:07,845 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:30:19,868 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:30:24,869 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:30:24,869 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:30:36,911 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:30:41,911 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:30:41,911 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:30:53,944 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:30:58,953 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:30:58,954 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:31:10,975 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:31:15,974 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:31:15,978 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:31:28,014 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:31:33,013 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:31:33,014 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:31:45,054 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:31:50,053 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:31:50,054 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:32:02,071 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:32:07,071 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:32:07,071 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:32:19,120 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:32:24,118 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:32:24,119 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:32:36,156 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:32:41,156 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:32:41,156 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:32:53,199 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:32:58,198 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:32:58,202 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:33:10,235 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:33:15,234 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:33:15,234 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:33:27,279 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:33:32,278 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:33:32,280 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:33:44,298 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:33:49,299 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:33:49,299 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:34:01,338 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:34:06,337 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:34:06,338 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:34:18,375 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:34:23,375 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:34:23,375 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:34:35,420 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:34:40,420 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:34:40,420 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:34:52,456 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:34:57,456 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:34:57,456 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:35:09,496 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:35:14,495 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:35:14,495 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:35:26,530 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:35:31,534 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:35:31,534 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:35:43,575 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:35:48,573 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:35:48,574 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:36:00,609 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:36:05,609 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:36:05,609 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:36:17,651 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:36:22,650 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:36:22,651 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:36:34,685 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:36:39,685 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:36:39,685 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:36:51,723 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:36:56,721 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:36:56,722 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:37:08,755 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:37:13,754 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:37:13,754 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:37:25,796 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:37:30,796 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:37:30,796 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:37:42,829 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:37:47,829 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:37:47,829 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:37:59,879 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:38:04,878 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:38:04,879 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:38:16,920 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:38:21,920 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:38:21,920 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:38:33,958 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:38:38,958 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:38:38,958 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:38:50,996 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:38:55,996 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:38:55,996 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:39:08,017 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:39:13,017 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:39:13,017 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:39:25,055 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:39:30,054 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:39:30,055 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:39:42,124 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:39:47,122 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:39:47,123 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:39:59,161 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:40:04,161 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:40:04,161 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:40:16,183 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:40:21,182 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:40:21,182 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:40:33,216 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:40:38,215 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:40:38,216 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:40:50,236 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:40:55,235 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:40:55,235 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:41:07,256 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:41:12,257 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:41:12,258 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:41:24,300 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:41:29,305 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:41:29,305 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:41:41,339 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:41:46,339 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:41:46,339 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:41:58,362 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:42:03,361 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:42:03,364 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:42:15,380 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:42:20,379 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:42:20,380 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:42:32,403 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:42:37,402 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:42:37,403 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:42:49,422 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:42:54,421 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:42:54,421 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:43:06,454 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:43:11,452 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:43:11,453 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:43:23,472 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:43:28,471 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:43:28,471 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:43:40,491 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:43:45,490 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 1] onClosed
+2025-03-05 12:43:45,490 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:43:57,508 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:44:02,509 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:44:02,509 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:44:14,530 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:44:19,529 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:44:19,530 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:44:31,545 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:44:36,544 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:44:36,544 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:44:48,565 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:44:53,565 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:44:53,565 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:45:05,580 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:45:10,579 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:45:10,579 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:45:22,599 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:45:27,598 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:45:27,599 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:45:39,614 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:45:44,614 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:45:44,614 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:45:56,631 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:46:01,634 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:46:01,635 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:46:13,651 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:46:18,650 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:46:18,650 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:46:30,669 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:46:35,669 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:46:35,670 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:46:47,685 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:46:52,684 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:46:52,684 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:47:04,706 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:47:09,705 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:47:09,706 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:47:21,724 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:47:26,724 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:47:26,724 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:47:38,744 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:47:43,742 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:47:43,742 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:47:55,763 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:48:00,762 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:48:00,763 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:48:12,798 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:48:17,797 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:48:17,797 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:48:29,822 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:48:34,821 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:48:34,821 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:48:46,841 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:48:51,841 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:48:51,841 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:49:03,859 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:49:08,858 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:49:08,859 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:49:20,880 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:49:25,880 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:49:25,880 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:49:37,900 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:49:42,900 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:49:42,900 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:49:54,919 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:49:59,920 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:49:59,921 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:50:11,939 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:50:16,938 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:50:16,938 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:50:29,078 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:50:34,077 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:50:34,077 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:50:46,094 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:50:51,093 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:50:51,093 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:51:03,111 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:51:08,110 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:51:08,110 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:51:20,128 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:51:25,128 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:51:25,128 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:51:37,150 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:51:42,149 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:51:42,150 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:51:54,169 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:51:59,168 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:51:59,169 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:52:11,212 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:52:16,211 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:52:16,211 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:52:28,249 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:52:33,256 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:52:33,257 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 1] onFeedEvent : DISCONNECTED
+2025-03-05 12:52:45,294 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:52:50,294 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:52:50,295 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:53:02,334 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:53:07,332 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:53:07,332 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:53:19,370 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:53:24,369 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:53:24,370 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:53:36,407 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:53:41,406 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:53:41,406 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:53:53,451 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:53:58,451 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:53:58,452 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:54:10,469 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:54:15,469 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:54:15,469 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:54:27,493 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:54:32,492 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:54:32,492 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:54:44,514 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:54:49,513 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:54:49,513 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:55:01,549 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:55:06,548 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:55:06,549 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:55:18,567 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:55:23,566 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:55:23,568 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:55:35,583 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:55:40,584 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:55:40,585 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:55:52,666 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:55:57,665 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:55:57,665 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:56:09,684 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:56:14,683 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:56:14,683 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:56:26,705 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:56:31,705 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:56:31,705 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:56:43,724 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:56:48,723 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:56:48,724 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:57:00,740 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:57:05,739 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:57:05,739 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:57:17,758 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:57:22,758 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:57:22,758 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:57:34,779 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:57:39,778 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:57:39,778 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:57:51,796 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:57:56,795 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:57:56,795 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:58:08,814 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:58:13,813 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:58:13,813 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:58:25,851 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:58:30,850 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:58:30,850 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:58:42,868 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:58:47,867 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:58:47,867 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:58:59,884 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:59:04,883 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:59:04,883 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:59:16,904 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:59:21,903 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:59:21,903 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:59:33,920 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:59:38,920 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:59:38,920 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 12:59:50,939 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 12:59:55,938 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 12:59:55,938 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:00:07,957 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:00:12,955 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:00:12,955 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:00:24,973 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:00:29,972 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:00:29,972 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:00:41,993 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:00:46,992 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:00:46,993 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:00:59,012 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:01:04,012 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:01:04,012 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:01:16,031 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:01:21,031 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:01:21,031 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:01:33,049 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:01:38,048 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:01:38,048 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:01:50,066 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:01:55,065 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:01:55,065 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:02:07,100 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:02:12,099 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:02:12,099 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:02:24,140 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:02:29,140 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:02:29,140 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:02:41,176 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:02:46,174 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:02:46,174 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:02:58,200 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:03:03,199 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:03:03,199 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:03:15,237 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:03:20,236 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:03:20,236 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:03:32,290 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:03:37,289 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:03:37,289 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:03:49,326 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:03:54,325 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:03:54,325 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:04:06,370 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:04:11,369 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:04:11,370 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:04:23,405 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:04:28,404 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:04:28,404 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:04:40,446 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:04:45,452 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:04:45,452 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:04:57,462 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:05:02,461 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:05:02,461 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:05:14,487 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:05:19,484 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:05:19,484 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:05:31,520 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:05:36,519 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:05:36,519 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:05:48,559 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:05:53,558 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:05:53,558 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:06:05,597 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:06:10,594 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:06:10,595 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:06:22,622 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:06:27,619 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:06:27,620 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:06:39,657 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:06:44,657 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:06:44,657 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:06:56,699 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:07:01,702 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:07:01,702 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:07:13,720 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:07:18,719 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:07:18,719 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:07:30,765 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:07:35,764 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:07:35,764 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:07:47,799 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:07:52,798 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:07:52,798 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:08:04,832 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:08:09,831 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:08:09,831 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:08:21,866 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:08:26,865 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:08:26,866 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:08:38,918 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:08:43,917 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:08:43,917 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:08:55,951 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:09:00,951 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:09:00,952 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:09:12,990 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:09:17,989 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:09:17,989 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:09:30,031 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:09:35,030 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:09:35,030 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:09:47,075 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:09:52,075 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:09:52,077 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:10:04,093 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:10:09,092 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:10:09,092 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:10:21,165 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:10:26,163 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:10:26,164 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:10:38,199 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:10:43,197 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:10:43,197 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:10:55,237 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:11:00,237 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:11:00,237 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED
+2025-03-05 13:11:12,276 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onFeedEvent : CONNECTED
+2025-03-05 13:11:17,275 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-11] [INFO] [Elapsed 0] onClosed
+2025-03-05 13:11:17,275 [c.s.l.F.ClientInteraction] [livedata-sdk-pool-1-thread-10] [INFO] [Elapsed 0] onFeedEvent : DISCONNECTED

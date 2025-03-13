@@ -1,0 +1,92 @@
+
+
+# Application Configuration
+server:
+  port: 8089
+
+spring:
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+    default-property-inclusion: NON_NULL
+    deserialization:
+      fail-on-unknown-properties: false
+
+  kafka:
+    producer:
+      properties:
+        max.request.size: 100485760  # 100MB
+    consumer:
+      properties:
+        fetch.max.bytes: 100485760  # 100MB
+    listener:
+      missing-topics-fatal: false
+
+  application:
+    name: orchestrator
+  profiles:
+    active: dev
+
+  logging:
+    level:
+      root: INFO
+      org.apache.kafka.clients.consumer: WARN
+      org.apache.kafka.clients.producer: WARN
+      org.apache.kafka.clients.admin: WARN
+      org.apache.kafka: ERROR
+      org.springframework.kafka: WARN
+
+  datasource:
+    url: jdbc:mysql://10.10.3.214:3306/feed?allowPublicKeyRetrieval=true&serverTimezone=UTC&useSSL=false
+    username: dev
+    password: cacate11
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+    # ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+  doc:
+    api-docs:
+      enabled: true
+    swagger-ui:
+      enabled: true
+  data:
+    redis:
+      host: 10.10.3.211
+      port: 6379
+
+# Sport Radar Feed Access
+sdk:
+  livescout:
+    enabled: true
+    username: sportTechSDK_User
+    password: HCnGyr3zUMqPta5X
+
+
+uof:
+  protocol-host: http://ib02.innbets.com:5005
+  access-token: "HCnGyr3zUMqPta5X"
+  api-host: "ib02.innbets.com"
+  api-port: 5005
+  use-ssl: false
+  messaging:
+    host: "ib02.innbets.com"
+    username: "sportTechSDK_User"
+    password: "HCnGyr3zUMqPta5X"
+    port: 5671
+    use-ssl: false
+    virtual-host: "/unifiedfeed/2"
+  default-language: "ENGLISH"
+  message-interest: "LiveMessagesOnly"
+
+feed:
+  rest:
+    client:
+      timeout: 300000
+  lang: en
