@@ -4,6 +4,9 @@
 server:
   port: 8089
 
+  servlet:
+    context-path: /api/v1/unified/feed
+
 spring:
 
   jackson:
@@ -38,7 +41,7 @@ spring:
       org.springframework.kafka: WARN
 
   datasource:
-    url: jdbc:mysql://10.10.3.214:3306/feed?allowPublicKeyRetrieval=true&serverTimezone=UTC&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/feed?allowPublicKeyRetrieval=true&serverTimezone=UTC&useSSL=false
     username: dev
     password: cacate11
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -90,3 +93,10 @@ feed:
     client:
       timeout: 300000
   lang: en
+
+resilience4j.ratelimiter:
+  instances:
+    recoveryRateLimiter:
+      limitForPeriod: 10
+      limitRefreshPeriod: 1s
+      timeoutDuration: 500ms
