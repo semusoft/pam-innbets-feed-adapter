@@ -19,7 +19,6 @@ public class XMLRecoveryController {
     private InnBetsRestApiXMLService innBetsRestApiXMLService;
 
     /**
-     * Full Odds Recovery endpoint.
      * - Live odds producers: maximum recovery period of 10 hours
      * - All other producers: maximum recovery period of 72 hours
      */
@@ -82,17 +81,14 @@ public class XMLRecoveryController {
         return innBetsRestApiXMLService.resendSportEventOddsRecovery(product, urn);
     }
 
-    // Fallback method for full odds recovery
     public String fallbackFullOddsRecovery(String product, Long after, Integer requestId, Throwable throwable) {
         return "<error>Rate limit exceeded for full odds recovery. Please try again later.</error>";
     }
 
-    // Fallback method for sport event recovery
     public String fallbackSportEventRecovery(String product, String prefix, String type, String id, Throwable throwable) {
         return "<error>Rate limit exceeded for sport event recovery. Please try again later.</error>";
     }
 
-    // Fallback method for stateful messages recovery
     public String fallbackStatefulRecovery(String product, String prefix, String type, String id, Throwable throwable) {
         return "<error>Rate limit exceeded for stateful messages recovery. Please try again later.</error>";
     }
