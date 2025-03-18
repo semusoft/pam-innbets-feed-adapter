@@ -3,11 +3,14 @@ package com.pam.sportradar.innbets.sportsfeed.service;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.google.gson.Gson;
 import com.pam.sportradar.innbets.commons.IdComponent;
+import com.pam.sportradar.innbets.sportsfeed.bean.UnifiedFeed;
 import com.pam.sportradar.innbets.sportsfeed.model.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
@@ -60,14 +63,29 @@ public class FeedAdapterXMLParserService {
     private Sport extractSelectedSportInfo(String sport, String language) {
         Sports sports;
         if (redisService.exists(redisPrefix + "sports")) sports = parseRedisString(redisService.getData(redisPrefix + "sports"), Sports.class);
-        else sports = getAllSports(language);
+        else sports = getSports(language);
         return sports.getSports().stream()
                 .filter(sp -> sp.getName().equalsIgnoreCase(sport))
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Sport not found: " + sport));
     }
 
-    public Sports getAllSports(String language) {
+    public List<Sport> getAllSports(String language) {
+        try {
+            String xml = xmlFeedService.getAllSports(language);
+            Sports sports = parseXml(xml, Sports.class);
+            if (!redisService.exists(redisPrefix + "sports")) {
+                redisService.save(redisPrefix + "sports", sports);
+            }
+            log.info("Sport extracted: {}", Optional.of(sports.getSports().size()));
+            return sports.getSports();
+        } catch (Exception ex) {
+            log.error("Error processing XML feed", ex);
+            throw new RuntimeException("Error processing XML feed", ex);
+        }
+    }
+
+    public Sports getSports(String language) {
         try {
             String xml = xmlFeedService.getAllSports(language);
             Sports sports = parseXml(xml, Sports.class);
@@ -329,6 +347,40 @@ public class FeedAdapterXMLParserService {
             MarketDescriptions marketVariantDescriptions = parseXml(xml, MarketDescriptions.class);
             log.info("Market variant descriptions: " + marketVariantDescriptions);
             return marketVariantDescriptions;
+        } catch (Exception ex) {
+            log.error("Error processing schedule XML feed", ex);
+            throw new RuntimeException("Error processing schedule XML feed", ex);
+        }
+    }
+
+    public UnifiedFeed getUnifiedFeed(String language) {
+        try {
+            UnifiedFeed unifiedFeed = new UnifiedFeed();
+            List<Sport> mainSportList = new ArrayList<>();
+            List<Category> mainCategoryList = new ArrayList<>();
+            List<Tournament> mainTournamentList = new ArrayList<>();
+            List<Market> mainMarketList = new ArrayList<>();
+            Sports sports = getSports(language);
+            sports.getSports().forEach(sport -> {
+                mainSportList.add(sport);
+                SportCategories categories = getCategoriesBySport(language, sport.getName());
+                mainCategoryList.addAll(categories.getCategories());
+            });
+            mainCategoryList.forEach(category -> {
+                mainTournamentList.addAll(getAvailableTournamentsByCategory(language, category.getName()));
+            });
+            MarketDescriptions marketDescriptions = getMarketsDetails(language);
+            BetstopReasonsDescriptions betstopReasonsDescriptions = getBetStopReasons();
+            BettingStatusDescriptions bettingStatusDescriptions = getBetStatusDescriptions();
+            VoidReasonsDescriptions voidReasonsDescriptions = getVoidReasons();
+            unifiedFeed.setSportList(mainSportList);
+            unifiedFeed.setCategoryList(mainCategoryList);
+            unifiedFeed.setTournamentList(mainTournamentList);
+            unifiedFeed.setMarketList(marketDescriptions.getMarkets());
+            unifiedFeed.setBetStopReasonList(betstopReasonsDescriptions.getBetstopReason());
+            unifiedFeed.setBettingStatusList(bettingStatusDescriptions.getBettingStatus());
+            unifiedFeed.setVoidReasonList(voidReasonsDescriptions.getVoidReasons());
+            return unifiedFeed;
         } catch (Exception ex) {
             log.error("Error processing schedule XML feed", ex);
             throw new RuntimeException("Error processing schedule XML feed", ex);

@@ -1,5 +1,6 @@
 package com.pam.sportradar.innbets.sportsfeed.controller;
 
+import com.pam.sportradar.innbets.sportsfeed.bean.UnifiedFeed;
 import com.pam.sportradar.innbets.sportsfeed.model.*;
 import com.pam.sportradar.innbets.sportsfeed.service.FeedAdapterXMLParserService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -14,7 +15,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/unified/feed")
+@RequestMapping()
 @Tag(name = "JSON Feed Adapter Controller", description = "Endpoints for managing feed data")
 public class JSONFeedAdapterXmlController {
 
@@ -26,10 +27,10 @@ public class JSONFeedAdapterXmlController {
 
     @Operation(summary = "Get all sports", description = "Retrieve all sports data from the XML feed")
     @GetMapping(value = "/{lang}/sports", produces = APPLICATION_JSON_VALUE)
-    public ResponseEntity<Sports> getAllSports(
+    public ResponseEntity<List<Sport>> getAllSports(
             @Parameter(description = "Language code", example = "en") @PathVariable("lang") String language) {
         try {
-            Sports sports = feedAdapterXMLParserService.getAllSports(language);
+            List<Sport> sports = feedAdapterXMLParserService.getAllSports(language);
             return ResponseEntity.ok(sports);
         } catch (Exception ex) {
             log.error("Error fetching sports", ex);
@@ -295,6 +296,19 @@ public class JSONFeedAdapterXmlController {
             return ResponseEntity.ok(variantDescriptions);
         } catch (Exception ex) {
             log.error("Error fetching variant descriptions", ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
+    }
+
+    @Operation(summary = "Get unified sport information", description = "Retrieve detailed information about all static information")
+    @GetMapping(value = "/{lang}/unified/prematch", produces = APPLICATION_JSON_VALUE)
+    public ResponseEntity<UnifiedFeed> getUnifiedPrematchInfo(
+            @Parameter(description = "Language", example = "en") @PathVariable("lang") String lang) {
+        try {
+            UnifiedFeed unifiedFeed = feedAdapterXMLParserService.getUnifiedFeed(lang);
+            return ResponseEntity.ok(unifiedFeed);
+        } catch (Exception ex) {
+            log.error("Error fetching unified feed", ex);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }
