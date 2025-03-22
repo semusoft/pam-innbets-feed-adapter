@@ -7,6 +7,11 @@ server:
   servlet:
     context-path: /api/v1/unified/feed
 
+logging:
+  level:
+    com.sportradar: DEBUG
+    com.pam.sportradar: DEBUG
+
 spring:
 
   jackson:
@@ -83,12 +88,18 @@ uof:
     username: "sportTechSDK_User"
     password: "HCnGyr3zUMqPta5X"
     port: 5671
-    use-ssl: false
+    use-ssl: true
     virtual-host: "/unifiedfeed/2"
   default-language: "ENGLISH"
   message-interest: "LiveMessagesOnly"
 
 feed:
+  kafka-server:
+    high-priority-topic:
+      name: high-priority-messages
+    low-priority-topic:
+      name: low-priority-messages
+
   rest:
     client:
       timeout: 300000

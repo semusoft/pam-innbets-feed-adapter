@@ -1,7 +1,7 @@
 package com.pam.sportradar.innbets.config;
 
-import com.pam.sportradar.innbets.sportsfeed.model.Sport;
-import com.pam.sportradar.innbets.sportsfeed.model.Sports;
+import com.pam.sportradar.innbets.innbetsfeed.v1.model.Sport;
+import com.pam.sportradar.innbets.innbetsfeed.v1.model.Sports;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;

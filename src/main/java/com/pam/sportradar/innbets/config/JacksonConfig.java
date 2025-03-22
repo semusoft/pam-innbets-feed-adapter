@@ -1,9 +1,11 @@
 package com.pam.sportradar.innbets.config;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer;
+import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -11,17 +13,17 @@ import org.springframework.context.annotation.Configuration;
 public class JacksonConfig {
 
     @Bean
-    public Jackson2ObjectMapperBuilderCustomizer jacksonCustomizer() {
-        return builder -> builder
-                .modules(new Jdk8Module(), new JavaTimeModule())
-                .failOnUnknownProperties(false)
-                .serializationInclusion(com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL);
-    }
-
-    @Bean
     public ObjectMapper objectMapper() {
-        return new ObjectMapper()
-                .registerModule(new Jdk8Module())
-                .registerModule(new JavaTimeModule());
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.registerModule(new Jdk8Module());
+        objectMapper.registerModule(new JavaTimeModule());
+        objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+        objectMapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
+        objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+        objectMapper.addMixIn(Object.class, IgnoreCircularReferenceMixin.class);
+        objectMapper.setFilterProvider(new SimpleFilterProvider().setFailOnUnknownId(false));
+        return objectMapper;
     }
+    @com.fasterxml.jackson.annotation.JsonFilter("circularReferenceFilter")
+    public static class IgnoreCircularReferenceMixin { }
 }

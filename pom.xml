@@ -18,11 +18,26 @@
 		<java.version>17</java.version>
 		<mapstruct.version>1.5.5.Final</mapstruct.version>
 		<com.sportradar.unifiedodds.sdk.version>3.4.0</com.sportradar.unifiedodds.sdk.version>
-		<hibernate.version>6.2.0.Final</hibernate.version>  <!-- Added missing hibernate version -->
+		<hibernate.version>6.2.0.Final</hibernate.version>
+		<resilience4j-spring-boot2.version>1.7.1</resilience4j-spring-boot2.version>
+		<gson.version>2.11.0</gson.version>
+		<jackson-dataformat-xml.version>2.17.2</jackson-dataformat-xml.version>
+		<unified-feed-sdk.version>3.5.1</unified-feed-sdk.version>
+		<jackson-dataformat-xml.version>2.18.3</jackson-dataformat-xml.version>
+		<jaxb-api.version>2.3.1</jaxb-api.version>
+		<jaxb-impl.version>2.3.4</jaxb-impl.version>
+		<jaxb-runtime.version>4.0.0</jaxb-runtime.version>
+		<jackson-dataformat-xml.version>2.15.2</jackson-dataformat-xml.version>
+		<springdoc-openapi-starter-webmvc-ui.version>2.1.0</springdoc-openapi-starter-webmvc-ui.version>
+		<jakarta.annotation-api.version>2.1.1</jakarta.annotation-api.version>
+		<spring-boot-starter-data-redis.version>2.7.18</spring-boot-starter-data-redis.version>
+		<lettuce-core.version>6.5.0.RELEASE</lettuce-core.version>
+		<jackson-datatype-jsr310.version>2.15.3</jackson-datatype-jsr310.version>
+		<jackson-datatype-jdk8.version>2.15.3</jackson-datatype-jdk8.version>
+		<jackson-datatype-jsr310.version>2.15.3</jackson-datatype-jsr310.version>
 	</properties>
 
 	<dependencies>
-		<!-- Spring Boot Starters -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
@@ -51,77 +66,60 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>io.github.resilience4j</groupId>
 			<artifactId>resilience4j-spring-boot2</artifactId>
-			<version>1.7.1</version>
+			<version>${resilience4j-spring-boot2.version}</version>
 		</dependency>
-
-		<!-- Database -->
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
-		<!-- Lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-
-		<!-- Google Gson -->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
-			<version>2.11.0</version>
+			<version>${gson.version}</version>
 		</dependency>
-
-		<!-- MapStruct -->
 		<dependency>
 			<groupId>org.mapstruct</groupId>
 			<artifactId>mapstruct</artifactId>
 			<version>${mapstruct.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.fasterxml.jackson.dataformat</groupId>
-			<artifactId>jackson-dataformat-xml</artifactId>
-			<version>2.17.2</version>
-		</dependency>
-
-		<!-- SPORTRADAR FEED SDK -->
-		<dependency>
 			<groupId>com.sportradar.unifiedodds.sdk</groupId>
 			<artifactId>unified-feed-sdk</artifactId>
-			<version>4.0.0</version>
+			<version>${unified-feed-sdk.version}</version>
 		</dependency>
-
-		<!-- JAXB API -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+			<version>${jackson-dataformat-xml.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
-			<version>2.3.1</version>
+			<version>${jaxb-api.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.sun.xml.bind</groupId>
 			<artifactId>jaxb-impl</artifactId>
-			<version>2.3.4</version>
+			<version>${jaxb-impl.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.glassfish.jaxb</groupId>
 			<artifactId>jaxb-runtime</artifactId>
-			<version>4.0.0</version>
+			<version>${jaxb-runtime.version}</version>
 		</dependency>
-
-		<!-- Spring Kafka Producer -->
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
 		</dependency>
-
-		<!-- Jackson for JSON Handling -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
@@ -129,14 +127,12 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-xml</artifactId>
-			<version>2.15.2</version>
+			<version>${jackson-dataformat-xml.version}</version>
 		</dependency>
-
-		<!-- OpenAPI -->
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-			<version>2.1.0</version>
+			<version>${springdoc-openapi-starter-webmvc-ui.version}</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.springdoc</groupId>
@@ -144,50 +140,31 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
 		<dependency>
 			<groupId>jakarta.annotation</groupId>
 			<artifactId>jakarta.annotation-api</artifactId>
-			<version>2.1.1</version>
+			<version>${jakarta.annotation-api.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>2.8.9</version>  <!-- Try an older version -->
-		</dependency>
-
-		<!--<dependency>
-			<groupId>com.fasterxml.jackson.datatype</groupId>
-			<artifactId>jackson-datatype-jdk8</artifactId>
-			<version>2.15.0</version>
-		</dependency>-->
-
-		<!-- Redis -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
-			<version>2.7.18</version>
+			<version>${spring-boot-starter-data-redis.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>io.lettuce</groupId>
 			<artifactId>lettuce-core</artifactId>
-			<version>6.5.0.RELEASE</version>
+			<version>${lettuce-core.version}</version>
 		</dependency>
-
-
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
 			<artifactId>jackson-datatype-jdk8</artifactId>
-			<version>2.15.3</version> <!-- Use latest version -->
+			<version>${jackson-datatype-jdk8.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
 			<artifactId>jackson-datatype-jsr310</artifactId>
-			<version>2.15.3</version> <!-- Java Time API Support -->
+			<version>${jackson-datatype-jsr310.version}</version>
 		</dependency>
-
-		<!-- Test Dependencies -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -205,12 +182,8 @@
 		</dependency>
 	</dependencies>
 
-
-
 	<build>
 		<plugins>
-
-			<!-- Maven Compiler Plugin (Fixed Configuration) -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -221,6 +194,10 @@
 					<compilerArgs>
 						<arg>--add-opens=java.xml/com.sun.xml.internal.bind=ALL-UNNAMED</arg>
 						<arg>--add-opens=java.xml.bind/com.sun.xml.internal.bind=ALL-UNNAMED</arg>
+						<arg>--add-opens=java.base/java.time.format=ALL-UNNAMED</arg>
+						<arg>--add-opens=java.base/java.lang=ALL-UNNAMED</arg>
+						<arg>--add-opens=java.base/java.time=ALL-UNNAMED</arg>
+						<arg>--add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED</arg>
 					</compilerArgs>
 					<annotationProcessorPaths>
 						<path>
@@ -241,8 +218,6 @@
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
-
-			<!-- Spring Boot Maven Plugin -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
