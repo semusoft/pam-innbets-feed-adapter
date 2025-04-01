@@ -96,7 +96,7 @@ uof:
 feed:
   kafka-server:
     topic:
-      name: innbets-feed-topic
+      name: innbets-feed-topic-raw
 
   rest:
     client:
