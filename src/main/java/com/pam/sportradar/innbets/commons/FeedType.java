@@ -1,8 +1,8 @@
 package com.pam.sportradar.innbets.commons;
 
-public enum PriorityType {
-    HIGH("high"),
-    LOW("low");
+public enum FeedType {
+    Prematch("PREMATCH"),
+    Live("LIVE");
 
     private String value;
 
@@ -10,7 +10,7 @@ public enum PriorityType {
         return this.value;
     }
 
-    PriorityType(String value) {
+    FeedType(String value) {
         this.value = value;
     }
 }

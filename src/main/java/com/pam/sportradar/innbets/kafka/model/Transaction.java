@@ -16,5 +16,5 @@ public class Transaction {
     private Timestamp timestamp;
     private String action;
     private Object info;
-    private String priority;
+    private boolean isLive;
 }

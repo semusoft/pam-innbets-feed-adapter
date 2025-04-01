@@ -3,27 +3,25 @@ package com.pam.sportradar.innbets.kafka;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.pam.sportradar.innbets.commons.PriorityType;
 import com.pam.sportradar.innbets.kafka.model.Transaction;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
+import java.security.SecureRandom;
 import java.sql.Timestamp;
 import java.time.Instant;
-import java.util.UUID;
 
 @Slf4j
 @Service
 public class Producer {
-    @Value("${feed.kafka-server.high-priority-topic.name}")
-    private String highPriorityTopicNAme;
-    @Value("${feed.kafka-server.low-priority-topic.name}")
-    private String lowPriorityTopicNAme;
+    @Value("${feed.kafka-server.topic.name}")
+    private String topic;
     private final KafkaTemplate<String, String> kafkaTemplate;
     private final XmlMapper xmlMapper;
     private final ObjectMapper jsonMapper;
+    private static final SecureRandom random = new SecureRandom();
 
     public Producer(KafkaTemplate<String, String> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
@@ -31,18 +29,23 @@ public class Producer {
         this.jsonMapper = new ObjectMapper();
     }
 
-    public void sendTransaction(byte[] xmlMessage, String action, String priority) {
+    public static String generateTransactionId() {
+        long currentTimeMillis = System.currentTimeMillis();
+        int randomNum = random.nextInt(1_000_000);  // 6-digit random number
+        return String.format("%d-%06d", currentTimeMillis, randomNum);
+    }
+
+    public void sendTransaction(byte[] xmlMessage, String action, boolean isLive) {
         try {
             JsonNode jsonNode = xmlMapper.readTree(xmlMessage);
             Transaction transaction = Transaction.builder()
-                    .transactionId(UUID.randomUUID().toString())
+                    .transactionId(generateTransactionId())
                     .timestamp(Timestamp.from(Instant.now()))
                     .action(action)
                     .info(jsonNode)
-                    .priority(priority)
+                    .isLive(isLive)
                     .build();
             String transactionString = jsonMapper.writeValueAsString(transaction);
-            String topic = priority.equalsIgnoreCase(PriorityType.HIGH.getValue()) ? highPriorityTopicNAme : lowPriorityTopicNAme;
             ProducerRecord<String, String> record =
                     new ProducerRecord<>(topic, transaction.getTransactionId(), transactionString);
             kafkaTemplate.send(record).whenComplete((result, exception) -> {

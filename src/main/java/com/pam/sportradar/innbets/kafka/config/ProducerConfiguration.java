@@ -1,5 +1,6 @@
 package com.pam.sportradar.innbets.kafka.config;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
@@ -12,6 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
+@Slf4j
 public class ProducerConfiguration {
 
     private static final String BOOTSTRAP_SERVERS = "10.10.3.229:9092";
@@ -34,6 +36,7 @@ public class ProducerConfiguration {
         configProps.put(ProducerConfig.BATCH_SIZE_CONFIG, 65536);
         configProps.put(ProducerConfig.LINGER_MS_CONFIG, 10);
         configProps.put("security.protocol", "PLAINTEXT");
+        log.info("XXX - Kafka producer configured.");
         return new DefaultKafkaProducerFactory<>(configProps);
     }
 

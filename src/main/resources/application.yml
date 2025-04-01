@@ -95,10 +95,8 @@ uof:
 
 feed:
   kafka-server:
-    high-priority-topic:
-      name: high-priority-messages
-    low-priority-topic:
-      name: low-priority-messages
+    topic:
+      name: innbets-feed-topic
 
   rest:
     client:

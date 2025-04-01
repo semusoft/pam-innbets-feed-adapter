@@ -1,7 +1,7 @@
 package com.pam.sportradar.innbets.innbetsfeed;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.pam.sportradar.innbets.commons.PriorityType;
+import com.pam.sportradar.innbets.commons.FeedType;
 import com.pam.sportradar.innbets.kafka.Producer;
 import com.pam.sportradar.innbets.innbetsfeed.v1.listener.CustomUofGlobalEventsListenerMod;
 import com.pam.sportradar.innbets.innbetsfeed.v1.listener.FeedUofListener;
@@ -57,8 +57,8 @@ public class FeedConnector {
         try {
             Map<String, UofSdk> sdkList = new HashMap<>();
             CountDownLatch sessionLatch = new CountDownLatch(2);
-            FeedUofListener highPriorityListener = new FeedUofListener(producer, PriorityType.HIGH.getValue());
-            FeedUofListener lowPriorityListener = new FeedUofListener(producer, PriorityType.LOW.getValue());
+            FeedUofListener prematchListener = new FeedUofListener(producer, FeedType.Prematch);
+            FeedUofListener liveListener = new FeedUofListener(producer, FeedType.Live);
             CustomUofGlobalEventsListenerMod globalEventsListener =
                     new CustomUofGlobalEventsListenerMod();
             UofConfiguration config = UofSdk.getUofConfigurationBuilder()
@@ -75,18 +75,18 @@ public class FeedConnector {
                     .setMessagingVirtualHost(messagingVirtualHost)
                     .setDefaultLanguage(Locale.forLanguageTag(feedLang))
                     .build();
-            UofSdk hiPrioritySdk = new UofSdk(globalEventsListener, config);
-            UofSdk loPrioritySdk = new UofSdk(globalEventsListener, config);
-            Thread hiPriorityMessageThread = createSessionThread(hiPrioritySdk, MessageInterest.HiPrioMessagesOnly, highPriorityListener,
-                    "x-High-Priority-Thread", sessionLatch);
-            Thread LoPriorityMessageThread = createSessionThread(loPrioritySdk, MessageInterest.LoPrioMessagesOnly, lowPriorityListener,
-                    "x-Low-Priority-Thread", sessionLatch);
-            hiPriorityMessageThread.start();
-            LoPriorityMessageThread.start();
-            sdkList.put("prematch-sdk", hiPrioritySdk);
-            sdkList.put("live-sdk", loPrioritySdk);
+            UofSdk prematchSdk = new UofSdk(globalEventsListener, config);
+            UofSdk liveSdk = new UofSdk(globalEventsListener, config);
+            Thread prematchMessageThread = createSessionThread(prematchSdk, MessageInterest.PrematchMessagesOnly, prematchListener,
+                    "X-Prematch-Thread", sessionLatch);
+            Thread liveMessageThread = createSessionThread(liveSdk, MessageInterest.LiveMessagesOnly, liveListener,
+                    "X-Live-Thread", sessionLatch);
+            prematchMessageThread.start();
+            liveMessageThread.start();
+            sdkList.put("prematch-sdk", prematchSdk);
+            sdkList.put("live-sdk", liveSdk);
             sessionLatch.await();
-            log.info("High Priority & Low Priority THREADS started successfully! 🏆");
+            log.info("Prematch & Live THREADS started successfully! 🏆");
             return sdkList;
         } catch (Exception e) {
             log.error("Error initializing UOF SDK: {}", e.getMessage(), e);
