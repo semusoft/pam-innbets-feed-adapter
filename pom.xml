@@ -10,8 +10,8 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>com.pam.sportradar</groupId>
-	<artifactId>innbets-adapter</artifactId>
+	<groupId>com.betting.feed</groupId>
+	<artifactId>innbets-feed-adapter</artifactId>
 	<version>1.0.0</version>
 
 	<properties>
