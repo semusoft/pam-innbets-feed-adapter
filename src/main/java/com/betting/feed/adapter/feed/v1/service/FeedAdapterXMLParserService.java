@@ -114,20 +114,20 @@ public class FeedAdapterXMLParserService {
         }
     }
 
-    public List<Tournament> getAvailableTournamentsByCategory(String language, String category) {
+    public List<Tournament> getAvailableTournamentsByCategoryExtId(String language, String categoryExtId) {
         try {
             List<Tournament> tournaments;
-            if (redisService.exists(redisPrefix + category + "-tournaments"))
-                tournaments = Collections.singletonList(parseRedisString(redisService.getData(redisPrefix + category + "-tournaments"), Tournament.class));
+            if (redisService.exists(redisPrefix + categoryExtId + "-tournaments"))
+                tournaments = Collections.singletonList(parseRedisString(redisService.getData(redisPrefix + categoryExtId + "-tournaments"), Tournament.class));
             else {
                 String xml = xmlFeedService.getTournaments(language);
                 Tournaments xmlTournaments = parseXml(xml, Tournaments.class);
-                tournaments = xmlTournaments.getTournaments().stream().filter(tr -> tr.getCategory().getName().equalsIgnoreCase(category)).toList();
-                if (!redisService.exists(redisPrefix + category + "-tournaments")) {
-                    redisService.save(redisPrefix + category + "-tournaments", tournaments);
+                tournaments = xmlTournaments.getTournaments().stream().filter(tr -> tr.getCategory().getId().equalsIgnoreCase(categoryExtId)).toList();
+                if (!redisService.exists(redisPrefix + categoryExtId + "-tournaments")) {
+                    redisService.save(redisPrefix + categoryExtId + "-tournaments", tournaments);
                 }
             }
-            log.info("Tournaments extracted for category " + category + " are: " + tournaments.size());
+            log.info("Tournaments extracted for category " + categoryExtId + " are: " + tournaments.size());
             return tournaments;
         } catch (Exception ex) {
             log.error("Error processing XML feed", ex);
@@ -200,6 +200,18 @@ public class FeedAdapterXMLParserService {
             FixturesFixture fixturesFixture = parseXml(xml, FixturesFixture.class);
             log.info("Sport event fixtures: " + fixturesFixture);
             return fixturesFixture;
+        } catch (Exception ex) {
+            log.error("Error processing schedule XML feed", ex);
+            throw new RuntimeException("Error processing schedule XML feed", ex);
+        }
+    }
+
+    public TournamentInfo getOutrightFixtures(String language, String prefix, String type, String id) {
+        try {
+            String xml = xmlFeedService.getFixture(language, prefix, type, id);
+            TournamentInfo tournamentInfo = parseXml(xml, TournamentInfo.class);
+            log.info("OUTRIGHT Sport event fixtures: " + tournamentInfo);
+            return tournamentInfo;
         } catch (Exception ex) {
             log.error("Error processing schedule XML feed", ex);
             throw new RuntimeException("Error processing schedule XML feed", ex);

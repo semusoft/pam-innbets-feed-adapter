@@ -1,5 +1,7 @@
 package com.betting.feed.adapter.feed.v1.controller;
 
+import com.betting.feed.adapter.feed.v1.model.TournamentInfo;
+import com.betting.feed.adapter.feed.v1.service.FeedAdapterXMLParserService;
 import com.betting.feed.adapter.feed.v1.service.InnBetsRestApiXMLService;
 import com.betting.feed.adapter.feed.v1.service.SdkService;
 import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
@@ -7,6 +9,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -18,6 +21,8 @@ public class RecoveryController {
 
     @Autowired
     private InnBetsRestApiXMLService innBetsRestApiXMLService;
+    @Autowired
+    private FeedAdapterXMLParserService feedAdapterXMLParserService;
     @Autowired
     private SdkService sdkService;
 
@@ -78,6 +83,46 @@ public class RecoveryController {
             @PathVariable("id") String id) {
         String urn = prefix + ":" + type + ":" + id;
         return innBetsRestApiXMLService.resendSportEventOddsRecovery(product, urn);
+    }
+
+    @GetMapping("/match/summary")
+    public String getMatchSummary(
+            @RequestParam("lang") String lang,
+            @RequestParam("prefix") String prefix,
+            @RequestParam("type") String type,
+            @RequestParam("id") String id
+    ) {
+        return innBetsRestApiXMLService.getSportEventSummary(lang, prefix, type, id);
+    }
+
+    @GetMapping("/season")
+    public String getSeasonInfo(
+            @RequestParam("language") String language,
+            @RequestParam("prefix") String prefix,
+            @RequestParam("type") String type,
+            @RequestParam("id") String id
+    ) {
+        return innBetsRestApiXMLService.getAvailableSeasons(language, prefix, type, id);
+    }
+
+    @GetMapping("/fixtures")
+    public String getFixtures(
+            @RequestParam("language") String language,
+            @RequestParam("prefix") String prefix,
+            @RequestParam("type") String type,
+            @RequestParam("id") String id
+    ) {
+        return innBetsRestApiXMLService.getFixture(language, prefix, type, id);
+    }
+
+    @GetMapping("/outright/fixtures")
+    public ResponseEntity<TournamentInfo> getOutrightFixtures(
+            @RequestParam("language") String language,
+            @RequestParam("prefix") String prefix,
+            @RequestParam("type") String type,
+            @RequestParam("id") String id
+    ) {
+        return ResponseEntity.ok().body(feedAdapterXMLParserService.getOutrightFixtures(language, prefix, type, id));
     }
 
     public String fallbackFullOddsRecovery(String product, Long after, Integer requestId, Throwable throwable) {

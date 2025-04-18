@@ -57,7 +57,7 @@ public class FeedAdapterController {
             @Parameter(description = "Language code", example = "en") @PathVariable("lang") String language,
             @Parameter(description = "Category name", example = "Italy") @PathVariable("category") String category) {
         try {
-            List<Tournament> tournamentList = feedAdapterXMLParserService.getAvailableTournamentsByCategory(language, category);
+            List<Tournament> tournamentList = feedAdapterXMLParserService.getAvailableTournamentsByCategoryExtId(language, category);
             return ResponseEntity.ok(tournamentList);
         } catch (Exception ex) {
             log.error("Error fetching tournaments", ex);

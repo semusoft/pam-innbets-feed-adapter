@@ -23,10 +23,9 @@ public class FeedUofListener implements UofListener {
         return this.feedType.getValue().equals("LIVE");
     }
 
-    private void sendMessageToKafkaServer(byte[] message, ActionType actionType) {
-        log.debug("📩 Received Event: {} - XML Data: {}", message);
+    private void sendMessageToKafkaServer(byte[] message, ActionType actionType) {;
+        log.info("Feed SESSION: {}", this.feedType.getValue());
         producer.sendTransaction(message, actionType.getValue(), isLive(this.feedType));
-        log.debug("📤 Event '{}' sent to Kafka ✅", actionType.getValue());
     }
 
     @Override

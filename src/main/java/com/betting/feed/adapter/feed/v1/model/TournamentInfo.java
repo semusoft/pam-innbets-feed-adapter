@@ -1,8 +1,14 @@
 package com.betting.feed.adapter.feed.v1.model;
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
 
+@Data
+@JacksonXmlRootElement(
+        localName = "tournament_info",
+        namespace = "http://schemas.sportradar.com/sportsapi/v1/unified")
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class TournamentInfo {
 
@@ -24,51 +30,6 @@ public class TournamentInfo {
     @JacksonXmlProperty(localName = "groups")
     private Groups groups;
 
-    // This element exists in the XML but is empty; you can map it if needed.
     @JacksonXmlProperty(localName = "competitors")
     private Competitors competitors;
-
-    // Getters and Setters
-    public String getGeneratedAt() {
-        return generatedAt;
-    }
-    public void setGeneratedAt(String generatedAt) {
-        this.generatedAt = generatedAt;
-    }
-    public Tournament getTournament() {
-        return tournament;
-    }
-    public void setTournament(Tournament tournament) {
-        this.tournament = tournament;
-    }
-    public Season getSeason() {
-        return season;
-    }
-    public void setSeason(Season season) {
-        this.season = season;
-    }
-    public Round getRound() {
-        return round;
-    }
-    public void setRound(Round round) {
-        this.round = round;
-    }
-    public CoverageInfo getCoverageInfo() {
-        return coverageInfo;
-    }
-    public void setCoverageInfo(CoverageInfo coverageInfo) {
-        this.coverageInfo = coverageInfo;
-    }
-    public Groups getGroups() {
-        return groups;
-    }
-    public void setGroups(Groups groups) {
-        this.groups = groups;
-    }
-    public Competitors getCompetitors() {
-        return competitors;
-    }
-    public void setCompetitors(Competitors competitors) {
-        this.competitors = competitors;
-    }
 }

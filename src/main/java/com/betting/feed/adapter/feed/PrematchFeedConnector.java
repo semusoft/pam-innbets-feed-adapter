@@ -19,7 +19,7 @@ import java.util.concurrent.CountDownLatch;
 
 @Slf4j
 @Configuration
-public class FeedConnector {
+public class PrematchFeedConnector {
     private final Producer producer;
     private final ObjectMapper objectMapper;
     @Value("${uof.access-token}")
@@ -47,7 +47,7 @@ public class FeedConnector {
     @Value("${feed.lang}")
     private String feedLang;
 
-    public FeedConnector(Producer producer, ObjectMapper objectMapper) {
+    public PrematchFeedConnector(Producer producer, ObjectMapper objectMapper) {
         this.producer = producer;
         this.objectMapper = objectMapper;
     }
