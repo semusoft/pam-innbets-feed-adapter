@@ -117,7 +117,7 @@ public class RecoveryController {
 
     @GetMapping("/outright/fixtures")
     public ResponseEntity<TournamentInfo> getOutrightFixtures(
-            @RequestParam("language") String language,
+            @RequestParam("lang") String language,
             @RequestParam("prefix") String prefix,
             @RequestParam("type") String type,
             @RequestParam("id") String id
