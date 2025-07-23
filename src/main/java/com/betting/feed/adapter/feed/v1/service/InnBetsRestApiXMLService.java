@@ -63,8 +63,7 @@ public class InnBetsRestApiXMLService {
     }
 
     public String getFixture(String language, String prefix, String type, String id) {
-        return executeRequest(HttpMethod.GET, "sports/" + language + "/sport_events/"
-                + prefix + ":" + type + ":" + id + "/fixture.xml", language, prefix, type, id);
+        return executeRequest(HttpMethod.GET, "sports/" + language + "/sport_events/" + prefix + ":" + type + ":" + id + "/fixture.xml", language, prefix, type, id);
     }
 
     public String getLiveSchedule() {

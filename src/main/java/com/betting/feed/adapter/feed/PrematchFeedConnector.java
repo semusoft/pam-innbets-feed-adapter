@@ -61,8 +61,9 @@ public class PrematchFeedConnector {
             FeedUofListener liveListener = new FeedUofListener(producer, FeedType.Live);
             CustomUofGlobalEventsListenerMod globalEventsListener =
                     new CustomUofGlobalEventsListenerMod();
+
             UofConfiguration config = UofSdk.getUofConfigurationBuilder()
-                    .setAccessToken(accessToken)
+                    .setAccessToken(messagingUsername)
                     .selectCustom()
                     .setApiHost(apiHost)
                     .setApiPort(apiPort)

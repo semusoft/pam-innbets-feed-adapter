@@ -3,6 +3,7 @@ package com.betting.feed.adapter.kafka.config;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.core.DefaultKafkaProducerFactory;
@@ -16,7 +17,7 @@ import java.util.Map;
 @Slf4j
 public class ProducerConfiguration {
 
-    private static final String BOOTSTRAP_SERVERS = "10.10.3.229:9092";
+    private static final String BOOTSTRAP_SERVERS = "10.10.2.229:9092";
 
     @Bean
     public ProducerFactory<String, String> producerFactory() {

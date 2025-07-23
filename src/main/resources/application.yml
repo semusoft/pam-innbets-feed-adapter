@@ -44,7 +44,7 @@ spring:
       org.springframework.kafka: WARN
 
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/feed?allowPublicKeyRetrieval=true&serverTimezone=UTC&useSSL=false
+    url: jdbc:mysql://10.10.2.214:3306/feed?allowPublicKeyRetrieval=true&serverTimezone=UTC&useSSL=false
     username: dev
     password: cacate11
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -64,7 +64,7 @@ spring:
       enabled: true
   data:
     redis:
-      host: 10.10.3.211
+      host: 10.10.2.211
       port: 6379
 
 # Sport Radar Feed Access
@@ -72,29 +72,30 @@ sdk:
   livescout:
     enabled: true
     username: sportTechSDK_User
-    password: HCnGyr3zUMqPta5X
-
+    password: BlfO3PlKLGLWXUx
 
 uof:
-  protocol-host: http://ib02.innbets.com:5005
-  access-token: "HCnGyr3zUMqPta5X"
-  api-host: "ib02.innbets.com"
+  protocol-host: "http://ib33.innbets.com:5005"
+  access-token: "sportTechSDK_User"
+  api-host: "ib33.innbets.com"
   api-port: 5005
   use-ssl: false
   messaging:
-    host: "ib02.innbets.com"
+    host: "ib33.innbets.com"
     username: "sportTechSDK_User"
-    password: "HCnGyr3zUMqPta5X"
+    password: "BlfO3PlKLGLWXUx"
     port: 5671
     use-ssl: true
-    virtual-host: "/unifiedfeed/2"
+    virtual-host: "/unifiedfeed/8"
   default-language: "ENGLISH"
-  message-interest: "LiveMessagesOnly"
+  message-interest: "PrematchMessagesOnly"
 
 feed:
   kafka-server:
     topic:
       name: innbets-feed-topic-raw
+    bootstrap:
+      server: 10.10.2.229
 
   rest:
     client:
