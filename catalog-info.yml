@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pam-betting
+  description: Desc
+  annotations:
+    github.com/project-slug: semusoft/pam-innbets-feed-adapter
+    argocd/applications:
+    argocd/componentName:
+    argocd/resources-all:
+    sonarqube.org/project-key: 'pam-innbets-feed-adapter'
+    dependency-track/project-name: 'pam-innbets-feed-adapter'
+spec:
+  type: ""
+  owner: PAM
+  lifecycle: production
+  system: pam
