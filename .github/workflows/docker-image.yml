@@ -68,3 +68,12 @@ jobs:
         run: |
           docker push $IMAGE_TAG
           docker push $IMAGE_LATEST
+          # Mostra immagine nel log
+
+      - name: Show image name
+        run: |
+          echo "Docker image built and pushed!"
+          echo "Use this image in your deployment:"
+          echo "  $IMAGE_TAG"
+          echo "Latest tag also available:"
+          echo "  $IMAGE_LATEST"
