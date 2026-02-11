@@ -68,22 +68,3 @@ jobs:
         run: |
           docker push $IMAGE_TAG
           docker push $IMAGE_LATEST
-
-      # Aggiorna manifest Kubernetes
-      - name: Update deployment.yaml
-        run: |
-          sed -i "s|image: .*|image: $IMAGE_TAG|g" k8s/deployment.yaml
-
-      # Commit & push solo se necessario
-      - name: Commit and push deployment update
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          if [[ -n $(git status --porcelain) ]]; then
-            git add k8s/deployment.yaml
-            git commit -m "Update deployment image to $IMAGE_TAG"
-            git push origin HEAD:$BRANCH_NAME
-          else
-            echo "No changes to commit"
-          fi
