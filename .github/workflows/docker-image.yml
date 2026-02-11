@@ -2,34 +2,39 @@ name: CI
 
 on:
   push:
-    branches: 
-      - 'release/**'   # trigger solo sui branch release
+    branches:
+      - 'release/**'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+      packages: write
+
     env:
       REGISTRY: ghcr.io
       ORG: ${{ github.repository_owner }}
 
     steps:
-      # Step 1: Checkout codice
       - uses: actions/checkout@v4
 
-      # Step 2: Set up variabili dinamiche
+      # Variabili dinamiche
       - name: Set up variables
-        id: vars
         run: |
           APP_NAME=$(basename $GITHUB_REPOSITORY)
           BRANCH_NAME=${GITHUB_REF#refs/heads/}
           VERSION=$(date +%Y%m%d%H%M%S)
+          IMAGE_TAG=${{ env.REGISTRY }}/${{ env.ORG }}/$APP_NAME:$VERSION
+
           echo "APP_NAME=$APP_NAME" >> $GITHUB_ENV
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
           echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
 
-      # Step 3: Login su GHCR
+      # Login GHCR
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v2
         with:
@@ -37,31 +42,28 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 4: Build Docker image
+      # Build immagine Docker (multi-stage)
       - name: Build Docker image
         run: |
-          IMAGE_TAG=${{ env.REGISTRY }}/${{ env.ORG }}/${{ env.APP_NAME }}:${{ env.VERSION }}
           echo "Building $IMAGE_TAG"
           docker build -t $IMAGE_TAG .
 
-      # Step 5: Push Docker image su GHCR
+      # Push immagine
       - name: Push Docker image
         run: |
-          IMAGE_TAG=${{ env.REGISTRY }}/${{ env.ORG }}/${{ env.APP_NAME }}:${{ env.VERSION }}
           docker push $IMAGE_TAG
 
-      # Step 6: Aggiorna k8s/deployment.yaml con nuovo tag immagine
+      # Aggiorna manifest Kubernetes
       - name: Update deployment.yaml
         run: |
-          IMAGE_TAG=${{ env.REGISTRY }}/${{ env.ORG }}/${{ env.APP_NAME }}:${{ env.VERSION }}
           echo "Updating deployment.yaml with $IMAGE_TAG"
           sed -i "s|image: .*|image: $IMAGE_TAG|g" k8s/deployment.yaml
 
-      # Step 7: Commit & push manifest aggiornati
+      # Commit & push
       - name: Commit and push deployment update
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add k8s/deployment.yaml
           git commit -m "Update deployment image to $IMAGE_TAG" || echo "No changes to commit"
-          git push origin HEAD:${{ env.BRANCH_NAME }}
+          git push origin HEAD:$BRANCH_NAME
