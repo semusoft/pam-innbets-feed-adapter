@@ -1,0 +1,5 @@
+*/dev/* @semusoft/PAM-DEV @semusoft/PAM-LEAD
+*/test/* @semusoft/PAM-DEV @semusoft/PAM-LEAD
+*/preprod/* @semusoft/PAM-LEAD
+*/prod/* @semusoft/PAM-LEAD
+.github/CODEOWNERS @semusoft/PAM-DSO-LEAD
